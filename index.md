@@ -1,5 +1,3 @@
-## Compte Rendu Sae2.03 
-
 **Équipe :** Équipe n°5  
 
 **Nom des membres de l'équipe :**  
