@@ -23,7 +23,7 @@ Rocha Anthony
 ```shell
 FROM debian:latest
 ``` 
-<!--- Installation des paquetages --->
+ ####Installation des paquetages
 
 2. Pour s'assurer que l'installation se déroule correctement, on met à jour le système :
 ```shell
