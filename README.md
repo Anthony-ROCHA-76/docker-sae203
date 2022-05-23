@@ -89,7 +89,7 @@ EXPOSE 8096
 docker --version
 ```
 
-2. On Clone le référentiel :
+2. On clone le référentiel :
  ```shell
 git clone git@github.com:anth0rch/docker-sae203.git
 ```
@@ -104,7 +104,7 @@ cd docker-sae203
 docker build -t equipe5-image .
 ```
 
-5. On créé, on initialise un container avec la commande suivante :
+5. On créé, on initialise un container à partir de l'image construite avec la commande suivante :
 ```shell
 docker run --name equipe5-Jellyfin -d -p 2783:8096 equipe5-image
 ```
@@ -115,7 +115,8 @@ docker start equipe5-Jellyfin
 ```
 
 
-8. On vérifie que l'application est en cours d'exécution. Pour ce faire, on ouvre un navigateur et on saisie dans la barre d'URL :  ```di-docker:2783``` ou bien ```localhost:2783```
+8. On vérifie que l'application est en cours d'exécution. Pour ce faire, on ouvre un navigateur et on saisie dans la barre d'URL :  
+  ```di-docker:2783``` ou bien ```localhost:2783```
 
 9. On vérifie que le conteneur associé est actif :
 ```shell
