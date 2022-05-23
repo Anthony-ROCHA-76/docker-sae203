@@ -19,7 +19,7 @@ Rocha Anthony
 
 --------------------------------------------------------------------------------
 
- [center]Texte[/center]
+ <center>SOMMAIRE</center>
 
 ## I) Présentation de Docker
 
