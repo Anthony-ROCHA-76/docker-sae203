@@ -121,7 +121,7 @@ docker ps
 docker stop equipe5-Jellyfin
 ```
 
-![Interface_Jellyfin](../Images/Interface_Jellyfin.png)
+![Interface_Jellyfin]("../Images/Interface_Jellyfin.png")
 
 
 
