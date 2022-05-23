@@ -40,6 +40,9 @@ Rocha Anthony
 
 ## II) Installation du serveur multimédia Jellyfin avec Docker
 
+![Interface_Jellyfin](./Images/schema_docker.png)  
+
+
 ![Interface_Jellyfin](./Images/Interface_Jellyfin.png)
 
 ## III) Les problèmes survenus à l'installation
