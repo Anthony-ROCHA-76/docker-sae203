@@ -18,12 +18,13 @@ Rocha Anthony
 **Département Informatique , IUT Le Havre - Sae2.03**
 
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 # <center> SOMMAIRE </center>
 
-## I) Présentation de Docker
+## I)   Présentation de Docker
 
-## II) Installation du serveur multimédia Jellyfin avec Docker
+## II)  Installation du serveur multimédia Jellyfin avec Docker
 
 ## III) Les problèmes survenus à l'installation
 
@@ -31,7 +32,8 @@ Rocha Anthony
 
 ## Conclusion
 
---------------------------------------------------------------------------------  
+-------------------------------------------------------------------------------- 
+-------------------------------------------------------------------------------- 
 
 
 ## I) Présentation de Docker
