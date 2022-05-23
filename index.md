@@ -28,7 +28,7 @@ Rocha Anthony
 
 ## III) Les problèmes survenus à l'installation
 
-## IV) Les soultions apportées à ces problèmes d'installation
+## IV) Les solutions apportées à ces problèmes d'installation
 
 ## Conclusion
 
@@ -44,7 +44,7 @@ Rocha Anthony
 
 ## III) Les problèmes survenus à l'installation
 
-## IV) Les soultions apportées à ces problèmes d'installation
+## IV) Les solutions apportées à ces problèmes d'installation
 
 ## Conclusion
 
