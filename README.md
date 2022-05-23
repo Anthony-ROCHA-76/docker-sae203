@@ -106,10 +106,10 @@ docker build -t equipe5-image .
 
 5. On lance le serveur Jellyfin avec docker run :
 ```shell
-docker run --name equipe5-Jellyfin -d -p 2783:80 equipe5-image
+docker run --name equipe5-Jellyfin -d -p 2783:8096 equipe5-image
 ```
 
-6. On vérifie que l'application est en cours d'exécution. Pour ce faire, on ouvre un navigateur et on saisie :  ```2783:8096```
+6. On vérifie que l'application est en cours d'exécution. Pour ce faire, on ouvre un navigateur et on saisie :  ```di-docker:2783``` ou bien ```localhost:2783```
 
 7. On vérifie que le conteneur associé est actif :
 ```shell
