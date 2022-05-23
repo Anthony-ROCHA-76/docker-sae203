@@ -19,15 +19,30 @@ Rocha Anthony
 
 --------------------------------------------------------------------------------
 
-## Présentation de Docker
+# [center]SOMMAIRE[/center]
 
-## Installation du serveur multimédia Jellyfin avec Docker
+## I) Présentation de Docker
+
+## II) Installation du serveur multimédia Jellyfin avec Docker
+
+## III) Les problèmes survenus à l'installation
+
+## IV) Les soultions apportées à ces problèmes d'installation
+
+## Conclusion
+
+--------------------------------------------------------------------------------  
+
+
+## I) Présentation de Docker
+
+## II) Installation du serveur multimédia Jellyfin avec Docker
 
 ![Interface_Jellyfin](./Images/Interface_Jellyfin.png)
 
-## Les problèmes survenus à l'installation
+## III) Les problèmes survenus à l'installation
 
-## Les soultions apportées à ces problèmes d'installation
+## IV) Les soultions apportées à ces problèmes d'installation
 
 ## Conclusion
 
