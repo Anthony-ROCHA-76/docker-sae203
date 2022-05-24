@@ -131,6 +131,7 @@ CMD ["systemctl", "start", "jellyfin"]
 - Pour tester, on a ouvrir un navigateur (Google Chrome) et tapez sur la barre de recherche:
   ```localhost:2783``` ou ```di-docker:2783```
   (2783 est la porte hôte correspondant à la porte 8096 du conteneur)
+- Désormais, on peut configuré Jellyfin serveur comme on veut (la langue, l'autorisation pour être accédé en distance, la médiathèque,...)
 
 ## III) Les problèmes survenus à l'installation
 
