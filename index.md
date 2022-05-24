@@ -59,7 +59,7 @@ Il s’agit d’une plateforme logicielle open source permettant de créer, de d
 
 ![Image_container](./Images/container_VM.png)
 
-Les
+Par rapport aux machines virtuelles, Docker présente également plusieurs avantages. Elle permet de développer des applications de façon plus efficiente, en utilisant moins de ressources, et de déployer ces applications plus rapidement. En effet, les machines virtuelles utilisent du matériel informatique comme les hyperviseurs tandis que les containers partagent le même système d'exploitation. Par conséquent, les containers sont plus efficient en terme de consommation de ressources systèmes. 
 
 ## II) Installation du serveur multimédia Jellyfin avec Docker
 
