@@ -113,7 +113,7 @@ RUN sudo a2enmod proxy proxy_http headers proxy_wstunnel
 
 COPY jellyfin.conf /etc/apache2/sites-available/jellyfin.conf
 # Activer l’hôte virtuel sur Apache
-RUN sudo a2ensite jellyfin.conf #
+RUN sudo a2ensite jellyfin.conf
 
 RUN sudo systemctl restart apache2
 
