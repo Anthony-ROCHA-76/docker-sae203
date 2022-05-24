@@ -82,7 +82,7 @@ EXPOSE 8096
 ```
 --------------------------------------------------------------------------------
 
-## Instructions pour lancer l'application grâce à Dockerfile
+## Instructions pour lancer Jellyfin grâce à Dockerfile
 
 1. On vérifie si docker est installé :
 ```shell
@@ -101,17 +101,17 @@ cd docker-sae203
 
 4. On construit l'image décrite dans dockerfile avec docker build : 
 ```shell
-docker build -t equipe5-image .
+docker build -t jellyfin .
 ```
 
 5. On créé, on initialise un container à partir de l'image construite avec la commande suivante :
 ```shell
-docker run --name equipe5-Jellyfin -d -p 2783:8096 equipe5-image
+docker run --name jellyfin-conteneur -d -p 2783:8096 jellyfin
 ```
 
 6. Puis, pour lancer le container, on exécute la commande suivante : 
 ```shell
-docker start equipe5-Jellyfin
+docker start jellyfin-conteneur
 ```
 
 
@@ -125,7 +125,7 @@ docker ps
 
 10. Puis , on arrête l'exécution du dockeur en cours si nous ne voulons plus l'utiliser :
 ```shell
-docker stop equipe5-Jellyfin
+docker stop jellyfin-conteneur
 ```
 
 
