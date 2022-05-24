@@ -81,10 +81,15 @@ Durant l'installation du serveur Jellyfin, nous nous sommes exposés à diverses
   
 Privilèges insuffisants pour l'installation  
 La configuration de logicielle insuffisante  
-Échec de l'ouverture d'un paquet d'installation
+
 
 
 ## IV) Les solutions apportées à ces problèmes d'installation
+
+Pour résoudre le problème des privilèges / des droits d'accès pour exécuter certaines commandes, nous devions installer les paquets relatifs à sudo :  
+ ``` apt install sudo - y```
+
+Quant à la configuration logicielle , nous aviosn fait appel
 
 ## Conclusion
 
