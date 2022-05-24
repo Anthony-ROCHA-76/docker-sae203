@@ -1,6 +1,6 @@
 FROM debian:latest
 
-# Install services, packages and do cleanup
+# Install services, packages 
 
 RUN   apt update  -y
 RUN   apt upgrade -y
