@@ -52,7 +52,7 @@ Plus concrètement, un container est une image Docker en cours d'exécution. Il 
 
 #### Qu'est-ce que Docker ?  
 
-Il s’agit d’une plateforme logicielle open source permettant de créer, de déployer et de gérer des containers d’applications virtualisées sur un système d’exploitation.  
+Il s’agit d’une plateforme logicielle open source permettant de créer, de déployer et de gérer des containers d’applications virtualisées sur un système d’exploitation.  Les services ou fonctions de l’application et ses différentes bibliothèques, fichiers de configuration, dépendances et autres composants sont regroupés au sein du container.
 
 
 #### Les avantages et inconvénients de l'utilisation de Docker
@@ -60,6 +60,13 @@ Il s’agit d’une plateforme logicielle open source permettant de créer, de d
 ![Image_container](./Images/container_VM.png)
 
 Par rapport aux machines virtuelles, Docker présente également plusieurs avantages. Elle permet de développer des applications de façon plus efficiente, en utilisant moins de ressources, et de déployer ces applications plus rapidement. En effet, les machines virtuelles utilisent du matériel informatique comme les hyperviseurs tandis que les containers partagent le même système d'exploitation. Par conséquent, les containers sont plus efficient en terme de consommation de ressources systèmes. 
+
+Cependant, Docker possède également des inconvénients :  
+
+Il est difficile de gérer de manière efficiente plusieurs containers à la fois.  
+La sécurité est insuffisante : les containers sont isolés et partagent un même système d'exploitation.  
+
+  
 
 ## II) Installation du serveur multimédia Jellyfin avec Docker
 
