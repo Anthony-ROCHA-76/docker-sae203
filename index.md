@@ -112,8 +112,9 @@ RUN sudo systemctl enable apache2
 RUN sudo a2enmod proxy proxy_http headers proxy_wstunnel
 
 COPY jellyfin.conf /etc/apache2/sites-available/jellyfin.conf
+# Activer l’hôte virtuel sur Apache
+RUN sudo a2ensite jellyfin.conf #
 
-RUN sudo a2ensite jellyfin.conf
 RUN sudo systemctl restart apache2
 
 # S'assurer que l'on soit sur le port par défaut de Jellyfin qui est le port 8096
@@ -132,6 +133,8 @@ CMD ["systemctl", "start", "jellyfin"]
   ```localhost:2783``` ou ```di-docker:2783```
   (2783 est la porte hôte correspondant à la porte 8096 du conteneur)
 - Désormais, on peut configuré Jellyfin serveur comme on veut (la langue, l'autorisation pour être accédé en distance, la médiathèque,...)
+### Mettre Apache comme un "Reverse Proxy"
+- Pour que autres ordinateurs à distance puisse accéder à Jellyfin Server. On a installé Apache (lisez Dockerfile). 
 
 ## III) Les problèmes survenus à l'installation
 
@@ -150,7 +153,7 @@ Pour résoudre le problème des privilèges / des droits d'accès pour exécuter
 Quant à la configuration logicielle , nous avions fait appel à nos responsable de la SAE.
 
 ## Conclusion
-
+Docker est un outil qui rendre l'application "portable", qui est facile et rapide d'implémenter.
 
 
 
