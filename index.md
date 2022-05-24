@@ -38,9 +38,26 @@ Rocha Anthony
 
 ## I) Présentation de Docker
 
+#### Qu'est-ce qu'un container ?
+
+
+
+Tout d'abord, il est nécessaire de définir un container avant Docker. Un container Docker est un environnement d’exécution virtualisé dans lequel les utilisateurs peuvent isoler les applications du système sous-jacent. Ces conteneurs sont des unités compactes et portables dans lesquelles on peut démarrer une application rapidement et facilement.  
+      
+Il ne faut pas le confondre avec une une image Docker qui est un fichier immuable  qui contient le code source, les bibliothèques, les dépendances, les outils et autres fichiers nécessaires à l’exécution d’une application.
+
+Plus concrètement, un container est une image Docker en cours d'exécution. Il dépend d'une image pour pourvoir exister.
+
+![Interface_Jellyfin](./Images/Image_container.jpeg)
+
 #### Qu'est-ce que Docker ?  
 
-Il s’agit d’une plateforme logicielle open source permettant de créer, de déployer et de gérer des containers d’applications virtualisées sur un système d’exploitation
+Il s’agit d’une plateforme logicielle open source permettant de créer, de déployer et de gérer des containers d’applications virtualisées sur un système d’exploitation.  
+
+
+#### Les avantages et inconvénients de l'utilisation de Docker
+
+
 
 ## II) Installation du serveur multimédia Jellyfin avec Docker
 
