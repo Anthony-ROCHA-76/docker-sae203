@@ -133,6 +133,7 @@ CMD ["systemctl", "start", "jellyfin"]
   ```localhost:2783``` ou ```di-docker:2783```
   (2783 est la porte hôte correspondant à la porte 8096 du conteneur)
 - Désormais, on peut configuré Jellyfin serveur comme on veut (la langue, l'autorisation pour être accédé en distance, la médiathèque,...)
+![container_VM](./Images/Interface_Jellyfin.png)
 ### Mettre Apache comme un "Reverse Proxy"
 - Pour que autres ordinateurs à distance puisse accéder à Jellyfin Server. On a installé Apache (lisez Dockerfile). 
 
