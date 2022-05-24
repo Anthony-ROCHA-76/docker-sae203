@@ -57,7 +57,7 @@ Il s’agit d’une plateforme logicielle open source permettant de créer, de d
 
 #### Les avantages et inconvénients de l'utilisation de Docker
 
-![Image_container](./Images/container_VM.png)
+![container_VM](./Images/container_VM.png)
 
 Par rapport aux machines virtuelles, Docker présente également plusieurs avantages. Elle permet de développer des applications de façon plus efficiente, en utilisant moins de ressources, et de déployer ces applications plus rapidement. En effet, les machines virtuelles utilisent du matériel informatique comme les hyperviseurs tandis que les containers partagent le même système d'exploitation. Par conséquent, les containers sont plus efficient en terme de consommation de ressources systèmes. 
 
@@ -70,7 +70,7 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 
 ## II) Installation du serveur multimédia Jellyfin avec Docker
 
-![Interface_Jellyfin](./Images/schema_docker.png)  
+![schema_docker](./Images/schema_docker.png)  
 
 
 ![Interface_Jellyfin](./Images/Interface_Jellyfin.png)
@@ -80,7 +80,9 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 Durant l'installation du serveur Jellyfin, nous nous sommes exposés à diverses problèmes comme :  
   
 Privilèges insuffisants pour l'installation  
-La configuration de logicielle insuffisante 
+La configuration de logicielle insuffisante  
+Échec de l'ouverture d'un paquet d'installation
+
 
 ## IV) Les solutions apportées à ces problèmes d'installation
 
