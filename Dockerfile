@@ -35,7 +35,7 @@ RUN sudo systemctl restart apache2
 # Expose Porte   
 EXPOSE 8096
 
-CMD ["systemctl", "start", "jellyfin"]
+
 
     
 
