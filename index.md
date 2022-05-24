@@ -71,6 +71,7 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 ## II) Installation du serveur  multimédia Jellyfin (dans le conteneur) et la rédaction de  Dockerfile
 ### Notre  dockerfile
 - Veuillez regarder notre dockerfile (explications dans les commentaires)
+
 ```shell
 FROM debian:latest
 # Pour s'assurer que l'installation se déroule correctement, on met à jour le système
