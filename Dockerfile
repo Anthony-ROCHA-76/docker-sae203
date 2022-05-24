@@ -8,7 +8,11 @@ RUN   apt-get install sudo -y
 RUN   sudo apt install debconf -y
 RUN   apt-get install wget apt-utils -y
 
-RUN  sudo apt install apt-transport-https ca-certificates gnupg2 curl git -y
+RUN  sudo apt install -y apt-transport-https \
+                         ca-certificates \ 
+                         gnupg2 \
+                         curl \
+                         git
 RUN  sudo wget -O- https://repo.jellyfin.org/jellyfin_team.gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/jellyfin.gpg
 RUN  echo "deb [arch=$( dpkg --print-architecture ) signed-by=/usr/share/keyrings/jellyfin.gpg] https://repo.jellyfin.org/debian bullseye main" | sudo tee /etc/apt/sources.list.d/jellyfin.list 
 
@@ -35,7 +39,7 @@ RUN sudo systemctl restart apache2
 # Expose Porte   
 EXPOSE 8096
 
-
+CMD ["systemctl", "start", "jellyfin"]
 
     
 
