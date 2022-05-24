@@ -118,7 +118,7 @@ CMD ["systemctl", "start", "jellyfin"]
     - ```docker start jellyfin-conteneur``` : lancer le conteneur
 
 - Pour tester, on a ouvrir un navigateur (Google Chrome) et tapez sur la barre de recherche:
-  localhost:2783 ou di-docker:2783
+  ```localhost:2783``` ou ```di-docker:2783```
   (2783 est la porte hôte correspondant à la porte 8096 du conteneur)
 
 ## III) Les problèmes survenus à l'installation
