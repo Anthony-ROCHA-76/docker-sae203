@@ -77,6 +77,11 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 
 ## III) Les problèmes survenus à l'installation
 
+Durant l'installation du serveur Jellyfin, nous nous sommes exposés à diverses problèmes comme :  
+  
+Privilèges insuffisants pour l'installation  
+La configuration de logicielle insuffisante 
+
 ## IV) Les solutions apportées à ces problèmes d'installation
 
 ## Conclusion
