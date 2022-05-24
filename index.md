@@ -69,7 +69,7 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
   
 
 ## II) Installation du serveur  multimédia Jellyfin (dans le conteneur) et la rédaction de  Dockerfile
-# 1.1. Notre  dockerfile
+### Notre  dockerfile
 ```shell
 FROM debian:latest
 
@@ -110,7 +110,7 @@ EXPOSE 8096
 
 CMD ["systemctl", "start", "jellyfin"]
 ```
-# Implémentation jellyfin
+### Implémentation jellyfin
 
 - Exécuter ces commandes (dans le dossier contenant Dockerfile) : 
     - ```docker build -t jellyfin .``` : ce paramètre vous permet de nommer le conteneur avec le nom de votre choix. Assez utile pour le localiser ultérieurement, surtout si vous travaillez sur une machine à l'IUT.
