@@ -68,12 +68,12 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 
   
 
-## II) Installation du serveur  multimédia Jellyfin et la rédaction de  Dockerfile
+## II) Installation du serveur  multimédia Jellyfin (dans le conteneur) et la rédaction de  Dockerfile
 # 1.1. Notre  dockerfile
 ```shell
 FROM debian:latest
 
-# Install services, packages and do cleanup
+# Install services, packages et finalement Jellyfin
 
 RUN   apt update  -y
 RUN   apt upgrade -y
@@ -90,6 +90,7 @@ RUN sudo apt upgrade -y
 RUN sudo apt install jellyfin -y
 RUN apt install systemctl -y
 
+#Lancer jellyfin
 RUN sudo systemctl start jellyfin
 RUN sudo systemctl enable jellyfin
 
@@ -109,8 +110,16 @@ EXPOSE 8096
 
 CMD ["systemctl", "start", "jellyfin"]
 ```
+# Implémentation jellyfin
 
+- Exécuter ces commandes (dans le dossier contenant Dockerfile) : 
+    - ```docker build -t jellyfin .``` : ce paramètre vous permet de nommer le conteneur avec le nom de votre choix. Assez utile pour le localiser ultérieurement, surtout si vous travaillez sur une machine à l'IUT.
+    - ```docker run --name jellyfin-conteneur -p 2783:8096 -d jellyfin``` : créer un conteneur appuyant l'image jellyfin, paramètre ```-d``` permet d'exécuter le conteneur en arrière-plan (_dettached_). On peut remplacer la porte hôte 2783 par n'importe quel nombre, mais surtout pas la porte de conteneur 8096.
+    - ```docker start jellyfin-conteneur``` : lancer le conteneur
 
+- Pour tester, on a ouvrir un navigateur (Google Chrome) et tapez sur la barre de recherche:
+  localhost:2783 ou di-docker:2783
+  (2783 est la porte hôte correspondant à la porte 8096 du conteneur)
 
 ## III) Les problèmes survenus à l'installation
 
