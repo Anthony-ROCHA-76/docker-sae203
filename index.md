@@ -129,7 +129,7 @@ CMD ["systemctl", "start", "jellyfin"]
     - ```docker run --name jellyfin-conteneur -p 2783:8096 -d jellyfin``` : créer un conteneur appuyant l'image jellyfin, paramètre ```-d``` permet d'exécuter le conteneur en arrière-plan (_dettached_). On peut remplacer la porte hôte 2783 par n'importe quel nombre, mais surtout pas la porte de conteneur 8096.
     - ```docker start jellyfin-conteneur``` : lancer le conteneur
 
-- Pour tester, on a ouvrir un navigateur (Google Chrome) et tapez sur la barre de recherche:
+- Pour tester, on a ouvert un navigateur (Google Chrome) et tapez sur la barre de recherche:
   ```localhost:2783``` ou ```di-docker:2783```
   (2783 est la porte hôte correspondant à la porte 8096 du conteneur)
 - Désormais, on peut configuré Jellyfin serveur comme on veut (la langue, l'autorisation pour être accédé en distance, la médiathèque,...)
