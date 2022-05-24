@@ -38,6 +38,10 @@ Rocha Anthony
 
 ## I) Présentation de Docker
 
+#### Qu'est-ce que Docker ?  
+
+Il s’agit d’une plateforme logicielle open source permettant de créer, de déployer et de gérer des containers d’applications virtualisées sur un système d’exploitation
+
 ## II) Installation du serveur multimédia Jellyfin avec Docker
 
 ![Interface_Jellyfin](./Images/schema_docker.png)  
