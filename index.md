@@ -122,6 +122,7 @@ EXPOSE 8096
 
 CMD ["systemctl", "start", "jellyfin"]
 ```
+
 ### Implémentation jellyfin
 
 - Exécuter ces commandes (dans le dossier contenant Dockerfile) : 
