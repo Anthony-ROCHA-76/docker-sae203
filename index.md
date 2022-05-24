@@ -24,7 +24,7 @@ Rocha Anthony
 
 ## I)   Présentation de Docker
 
-## II)  Installation du serveur multimédia Jellyfin avec Docker
+## II)  Installation du serveur  multimédia Jellyfin et la rédaction de  Dockerfile 
 
 ## III) Les problèmes survenus à l'installation
 
@@ -68,12 +68,10 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 
   
 
-## II) Installation du serveur multimédia Jellyfin avec Docker
-
-![schema_docker](./Images/schema_docker.png)  
+## II) Installation du serveur  multimédia Jellyfin et la rédaction de  Dockerfile
 
 
-![Interface_Jellyfin](./Images/Interface_Jellyfin.png)
+
 
 ## III) Les problèmes survenus à l'installation
 
@@ -89,7 +87,7 @@ La configuration de logicielle insuffisante
 Pour résoudre le problème des privilèges / des droits d'accès pour exécuter certaines commandes, nous devions installer les paquets relatifs à sudo :  
  ``` apt install sudo - y```
 
-Quant à la configuration logicielle , nous aviosn fait appel
+Quant à la configuration logicielle , nous avions fait appel à nos responsable de la SAE.
 
 ## Conclusion
 
