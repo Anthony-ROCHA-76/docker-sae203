@@ -57,7 +57,7 @@ Il s’agit d’une plateforme logicielle open source permettant de créer, de d
 
 #### Les avantages et inconvénients de l'utilisation de Docker
 
-![Image_container](./Images/container_VM.png)
+ <center>![Image_container](./Images/container_VM.png) </center>
 
 Les
 
