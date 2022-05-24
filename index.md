@@ -70,7 +70,7 @@ La sécurité est insuffisante : les containers sont isolés et partagent un mê
 
 ## II) Installation du serveur  multimédia Jellyfin et la rédaction de  Dockerfile
 # 1.1. Notre  dockerfile
-'''shell
+```shell
 FROM debian:latest
 
 # Install services, packages and do cleanup
@@ -108,7 +108,7 @@ RUN sudo systemctl restart apache2
 EXPOSE 8096
 
 CMD ["systemctl", "start", "jellyfin"]
-'''
+```
 
 
 
