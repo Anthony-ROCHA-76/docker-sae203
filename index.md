@@ -46,9 +46,9 @@ Tout d'abord, il est nécessaire de définir un container avant Docker. Un conta
       
 Il ne faut pas le confondre avec une une image Docker qui est un fichier immuable  qui contient le code source, les bibliothèques, les dépendances, les outils et autres fichiers nécessaires à l’exécution d’une application.
 
-Plus concrètement, un container est une image Docker en cours d'exécution. Il dépend d'une image pour pourvoir exister.
+Plus concrètement, un container est une image Docker en cours d'exécution. Il dépend d'une image pour pourvoir exister : 
 
-![Interface_Jellyfin](./Images/Image_container.jpeg)
+![Image_container](./Images/Image_container.jpeg)
 
 #### Qu'est-ce que Docker ?  
 
